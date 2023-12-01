@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a344d235-83b2-42d3-89e4-daded5ebe97e" name="Changes" comment="add features to main">
+    <list default="true" id="a344d235-83b2-42d3-89e4-daded5ebe97e" name="Changes" comment="fix some bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/RegistrazioneAudio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Video.java" afterDir="false" />
@@ -84,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701431449060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix some bugs">
+      <option name="closed" value="true" />
+      <created>1701432277539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701432277539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -92,6 +101,8 @@
     <MESSAGE value="add Video class" />
     <MESSAGE value="add Immagine class" />
     <MESSAGE value="add features to main" />
-    <option name="LAST_COMMIT_MESSAGE" value="add features to main" />
+    <MESSAGE value="fix some bugs" />
+    <MESSAGE value="fix other bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix other bugs" />
   </component>
 </project>

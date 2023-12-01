@@ -10,10 +10,9 @@ public class Immagine extends ElementoMultimediale implements GestioneLuminosita
         this.luminosita = luminosita;
     }
 
-
-
     //METODI
     public void show(){
+        // stampa il titolo e la luminosità
         System.out.println("Questa immagine è: " + this.titolo + ", luminosità: " + "*".repeat(Math.max(0, luminosita)));
     }
 
@@ -22,7 +21,6 @@ public class Immagine extends ElementoMultimediale implements GestioneLuminosita
         luminosita++;
         String asterisco = "*".repeat(Math.max(0, luminosita));
         System.out.println("Luminosità: " + asterisco);
-
         return luminosita;
     }
 

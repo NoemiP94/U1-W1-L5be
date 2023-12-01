@@ -5,8 +5,6 @@ public class Video extends ElementoMultimediale implements GestioneRiproduzioni,
     private int volume;
     private int luminosita;
 
-
-
     //COSTRUTTORE
     public Video(String titolo, int durata, int volume, int luminosita){
         this.titolo = titolo;
@@ -18,7 +16,7 @@ public class Video extends ElementoMultimediale implements GestioneRiproduzioni,
     //METODI
     @Override
     public void play(){
-        //stampa il titolo e la durata
+        // sstampa il titolo, il volume e la luminosità
         for( int i = 1; i <= durata; i++){
             System.out.println("Stai riproducendo: " + this.titolo + ", volume: " + "!".repeat(Math.max(0, volume)) + ", luminosità: " + "*".repeat(Math.max(0, luminosita)));
         }
@@ -35,7 +33,7 @@ public class Video extends ElementoMultimediale implements GestioneRiproduzioni,
 
     @Override
     public int abbassaVolume(){
-        //abbasso il volume se è > 0
+        // abbasso il volume se è > 0
         if(volume > 0 ){
             volume--;
             String esclamativo = "!".repeat(Math.max(0, volume));
@@ -55,7 +53,7 @@ public class Video extends ElementoMultimediale implements GestioneRiproduzioni,
 
     @Override
     public int abbassaLuminosita(){
-        //abbasso la luminosità se è > 0
+        // abbasso la luminosità se è > 0
         if(luminosita > 0 ){
             luminosita--;
             String asterisco = "*".repeat(Math.max(0, luminosita));
