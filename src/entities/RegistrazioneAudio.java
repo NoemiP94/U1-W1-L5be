@@ -16,7 +16,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Gestione
     public void play(){
         //stampa il titolo e la durata
         for( int i = 1; i <= durata; i++){
-            System.out.println(("Stai riproducendo: " + this.titolo + " , volume: " + "!".repeat(Math.max(0, volume)))) ;
+            System.out.println("Stai riproducendo: " + this.titolo + " , volume: " + "!".repeat(Math.max(0, volume)));
         }
 
     }
@@ -41,5 +41,10 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Gestione
             System.out.println("Volume: " + esclamativo);
         }
         return volume;
+    }
+
+    @Override
+    public String toString() {
+        return "Immagine scelta{ titolo:" + titolo + ", volume: " + "!".repeat(Math.max(0, volume)) + "}";
     }
 }

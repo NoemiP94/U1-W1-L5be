@@ -20,7 +20,7 @@ public class Video extends ElementoMultimediale implements GestioneRiproduzioni,
     public void play(){
         //stampa il titolo e la durata
         for( int i = 1; i <= durata; i++){
-            System.out.println(("Stai riproducendo: " + this.titolo + ", volume: " + "!".repeat(Math.max(0, volume))) + ", luminosità: " + "*".repeat(Math.max(0, luminosita))) ;
+            System.out.println("Stai riproducendo: " + this.titolo + ", volume: " + "!".repeat(Math.max(0, volume)) + ", luminosità: " + "*".repeat(Math.max(0, luminosita)));
         }
 
     }
@@ -62,5 +62,10 @@ public class Video extends ElementoMultimediale implements GestioneRiproduzioni,
             System.out.println("Luminosità: " + asterisco);
         }
         return luminosita;
+    }
+
+    @Override
+    public String toString() {
+        return "Video scelto{ titolo:" + titolo + ", volume: " + "!".repeat(Math.max(0, volume)) + ", luminosità: " + "*".repeat(Math.max(0, luminosita)) + "}";
     }
 }
