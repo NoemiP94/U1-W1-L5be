@@ -8,7 +8,7 @@ public class Video extends ElementoMultimediale{
 
 
     //COSTRUTTORE
-    public Video(String titolo, int durata){
+    public Video(String titolo, int durata, int volume, int luminosita){
         this.titolo = titolo;
         this.durata = durata;
         this.volume = volume;
