@@ -2,37 +2,33 @@ package entities;
 
 public class RegistrazioneAudio extends ElementoMultimediale{
     //ATTRIBUTI
-    private int durata;
-    private String volume;
+    private int volume;
 
     //COSTRUTTORE
-    public RegistrazioneAudio(String titolo, int durata){
+    public RegistrazioneAudio(String titolo, int durata, int volume){
         this.titolo = titolo;
         this.durata = durata;
-        this.volume = "!";
+        this.volume = volume;
     }
 
     //METODI
-    public void play(){
-        //stampa il titolo e la durata
-        System.out.println("Stai riproducendo: " + this.titolo + ", durata: " + this.durata + " min");
 
-    }
-
-    public String alzaVolume(){
+    public int alzaVolume(){
         //aumento il volume se il volume è >= a 1 e < 5
-        if(volume.length() >= 1 && volume.length()<5){
-            volume += "!";
-            System.out.println(volume);
+        if(volume >= 1 && volume < 5){
+            volume++;
+            String esclamativo = "!".repeat(Math.max(0, volume));
+            System.out.println(esclamativo);
         }
         return volume;
     }
 
-    public String abbassaVolume(){
+    public int abbassaVolume(){
         //abbasso il volume se il volume è <= 5 e > 1
-        if(volume.length() <= 5 && volume.length() > 1){
-            volume = volume.substring(0, volume.length() - 1); //elimina l'ultimo carattere
-            System.out.println(volume);
+        if(volume <= 5 && volume > 1){
+            volume--;
+            String esclamativo = "!".repeat(Math.max(0, volume));
+            System.out.println(esclamativo);
         }
         return volume;
     }
