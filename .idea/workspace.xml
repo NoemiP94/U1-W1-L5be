@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a344d235-83b2-42d3-89e4-daded5ebe97e" name="Changes" comment="add Video class">
+    <list default="true" id="a344d235-83b2-42d3-89e4-daded5ebe97e" name="Changes" comment="add Immagine class">
+      <change afterPath="$PROJECT_DIR$/src/entities/GestioneLuminosita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/GestioneRiproduzioni.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/ElementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/ElementoMultimediale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/RegistrazioneAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/RegistrazioneAudio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Video.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701425108295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Immagine class">
+      <option name="closed" value="true" />
+      <created>1701426560076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701426560076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add RegistrazioneAudio class" />
     <MESSAGE value="add Video class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Video class" />
+    <MESSAGE value="add Immagine class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Immagine class" />
   </component>
 </project>
