@@ -1,5 +1,5 @@
 # Java Practice ⚙️
-This project was developed during EPICODE Back end's class
+This project was developed during EPICODE Back end's class.
 It was necessary write Java code for the implementation of a multimedia player using the OOP principles.
 
 ### Description of the system:
@@ -10,7 +10,7 @@ It was necessary write Java code for the implementation of a multimedia player u
 - Run a Multimedia Element means that you call a methos show() for an Image or method play() of it's playable.
 
 ## Install
-This project was developed with Java
+This project was developed with Java.
 
  1. Download the project and clone it on your PC
  2. Open Main.java and run it
